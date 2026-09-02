@@ -1,0 +1,15 @@
+# Core
+torch>=2.4
+torchvision>=0.19
+numpy>=1.26
+pillow>=10.0
+matplotlib>=3.8
+
+# Notebook — serve per eseguire notebooks/ in locale dentro PyCharm
+# (PyCharm 2025.1+ ha il supporto Jupyter nel tier gratuito, ma il pacchetto
+# va comunque installato nell'interprete del progetto) e per ripulire gli
+# output prima dei commit.
+jupyter>=1.0
+ipykernel>=6.29
+nbconvert>=7.0
+tensorboard==2.21.0
